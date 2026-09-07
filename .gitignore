@@ -1,0 +1,15 @@
+# Never commit secrets, exports, credentials, or client data
+.env
+.env.*
+secrets/
+credentials/
+exports/
+private/
+*.csv
+*.xlsx
+*.jsonl
+
+# Local/temporary files
+.DS_Store
+Thumbs.db
+*.tmp
